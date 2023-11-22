@@ -1,0 +1,288 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+}
+/*--------------------------------HEADER----------------------------------*/
+header {
+    background: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: orbitron;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: orbitron;
+}
+header:hover{
+    background-color: blue;
+    color: black;
+    transition: background-color .8s;
+    font-family: orbitron;
+}
+nav{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    font-family: orbitron;
+}
+/*-----------------------------------MENU------------------------------------------*/
+.menu {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: orbitron;
+}
+
+#logotipo img{
+    padding: 1px;
+}
+
+.menu a {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2%;
+    font-family: orbitron;
+}
+
+.menu a:hover {
+    background-color: #424141;
+    color: rgb(47, 221, 111);
+    transition: background-color .8s;
+    font-family: orbitron;
+}
+
+/*--------------------------fotos de pc------------------------------------*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos {
+    flex: 1;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fotos:hover{
+    background-color: #333;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: background-color .4s;
+    transition: transform .4s;
+}
+
+article {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: #000000;
+    margin-top: 5px;
+}
+
+
+/*------------------------------SLIDER---------------------------------------------*/
+
+.slider {
+    background: #000;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-images {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slider-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0; 
+}
+
+.derecha{
+    width: 49%;
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.derecha:hover {
+    background-color: #555;
+}
+
+.izquierda{
+    width: 49%;
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.izquierda:hover {
+    background-color: #555;
+}
+
+/*-----------------------------VOLVER ARRIBA--------------------------------*/
+#arriba{
+    background-color: #0b7a36;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+#arriba:hover{
+    background: #0b7a358a;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+/*--------------------------Inicio de sesion-----------------------*/
+
+.login-container {
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    color: #ffffff;
+}
+
+.formulario input {
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    padding: 1px;
+    border: white solid 1px;
+}
+
+.formulario input:hover{
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    padding: 1px;
+    border: white solid 1px;
+}
+
+.boton-sesion {
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-sesion:hover {
+    background-color: #555;
+}
+
+/*------------------------CONTACTO-------------------------*/
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacto{
+    background: #0b7a36;
+    padding: 10px;
+}
+#primer{
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin: 2%;
+}
+#segundo{
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin: 2%;
+}
+#tercer{
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin: 2%;
+}
+
+#cuarto img{
+    width: 25px;
+    padding-left: 15px;
+}
+/*-------------------Fonts----------------------*/
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-regular.ttf)
+    
+}
+@font-face {
+    font-family: orbitron;
+    src: url(../fonts/Orbitron-Regular.ttf)
+    
+}
+/*-------------------RESPONSIVE----------------------*/
+@media only screen and (max-width: 600px) {
+    #logotipo {
+        flex-direction: column;
+    }
+    #logotipo {
+        width: 100%; }
+        
+    .menu {
+        flex-direction: column;
+    }
+    .menu {
+        width: 100%; }
+    #primer{
+        flex-direction: column;
+        margin: 0%;
+    }
+    #segundo{
+        flex-direction: column;
+        margin: 0%;
+    }
+    #tercer{
+        flex-direction: column;
+        margin: 0%;
+    }
+    #cuarto{
+        flex-direction: column;
+        margin: 0%;
+    }
+    }
+

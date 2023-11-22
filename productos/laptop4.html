@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto en Venta</title>
+    <link rel="stylesheet" href="../css/pc.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="catalogo.html">Descubre las orfetas que tenemos para ti -></a>
+    </header>
+    <nav class="menu">        
+        <a id="logotipo" href="../index.html"><img src="../img/logo.jpg" width="100px" height="100px" alt=""></a>
+        <a href="perifericos.html" id="perifericos">Memorias</a>
+        <a href="componentes.html">Componentes</a>
+        <a href="laptops.html">Laptos</a>
+    </nav>
+
+    <div class="container">
+        <div class="producto-info">
+            <div class="image-container">
+                <img src="../img/laptop1.jpg" width="300px" alt="Producto en Venta" class="product-image" id="productImage">
+                <div class="overlay" id="overlay">
+                    <img src="../img/laptop1.jpg" alt="Producto en Venta" class="enlarged-image" id="enlargedImage">
+                    <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                </div>
+            </div>
+            <div class="detalles">
+                <h1>Laptop Gamer intel 24gb RAM</h1>
+                <p>
+                    Laptop gamer con procesador Intel, 24 GB de memoria RAM a 3600 MHz, 512 de almacenamiento SSD.
+                </p>
+                <p>
+                    <del class="precio-anterior">$24,999.99</del>
+                </p>
+                <span class="precio">Precio: $18,999.99</span><br>
+                
+                <a href="#" class="agregar-btn" onclick="mostrarContador()" >Agregar al carrito</a>
+                <a href="compra.html" class="comprar-btn">Comprar ahora</a> <br><br>
+                <div id="contadorCompras" class="oculto"></div>
+                <div class="oculto"></div>
+            </div>
+        </div>
+        <div id="caracteristicas">
+            <ul><h3><strong> Especificaciones </strong></h3>
+                <li>Procesador : <strong>Intel Core i7-11700</strong></li>
+                <li>Memoria RAM : <strong>24gb 3600Mhz</strong></li>
+                <li>Almacenamiento :<strong> 1tb SSD </strong></li>
+                <li>Graficos : <strong>Intel HD grafics</strong></li>
+                <li>Pantalla : <strong>1920p x 1080p 75hz </strong></li>
+            </ul>
+        </div>
+        <div id="datos">
+            <ul><h3><strong>  </strong></h3>
+                <img src="../img/intel.png" width="20% alt="">
+            </ul>
+        </div>
+    </div>        
+</div>
+
+<div class="container">
+    <div class="fotos"><a href="laptop1.html"><img src="../img/laptop1.jpg" alt="" width="100%"></a><p><strong> $15,999.99</strong></p>Laptop gamer con procesador Intel Core i9-10900 de 2.80 GHz</div>
+    <div class="fotos"><a href="laptop2.html"><img src="../img/laptop2.png" alt="" width="100%"></a><p><strong> $15,999.99</strong></p>Laptop Windows 11, 240 GB de almacenamiento SSD Ryzen 5 5700g</div>
+    <div class="fotos"><a href="laptop3.html"><img src="../img/laptop3.png" alt="" width="100%"></a><p><strong>$22,999.99</strong></p>Laptop  1 TB de almacenamiento SSD Ryzen </div>
+    <div class="fotos"><a href="catalogo.html"><img src="../img/mas.png" alt="" width="100%"></a><strong>Ver m&aacute;s Productos</strong></div>
+</div>
+<button id="arriba" onclick="scrollToTop()"><strong>Volver a arriba</strong></button>
+
+    <footer>
+        <div class="contacto">
+            <h2>Contactanos</h2>
+            <p>Estamos aquí para ayudarte. ¡Contáctanos! <br><br>
+                Email: al22351@alumnos.uacj.mx <br><br>
+                Teléfono: +123 456 789
+            </p>
+    </footer>
+    <script src="../js/pc1.js"></script>
+    
+</body>
+</html>

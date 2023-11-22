@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto en Venta</title>
+    <link rel="stylesheet" href="../css/pc.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="catalogo.html">Descubre las orfetas que tenemos para ti -></a>
+    </header>
+    <nav class="menu">        
+        <a id="logotipo" href="../index.html"><img src="../img/logo.jpg" width="100px" height="100px" alt=""></a>
+        <a href="perifericos.html" id="perifericos">Memorias</a>
+        <a href="componentes.html">Componentes</a>
+        <a href="laptops.html">Laptos</a>
+    </nav>
+
+    <div class="container">
+        <div class="producto-info">
+            <div class="image-container">
+                <img src="../img/ram1.png" width="300px" alt="Producto en Venta" class="product-image" id="productImage">
+                <div class="overlay" id="overlay">
+                    <img src="../img/ram1.png" alt="Producto en Venta" class="enlarged-image" id="enlargedImage">
+                    <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                </div>
+            </div>
+            <div class="detalles">
+                <h1>Memoria RAM 16gb 3200mhz</h1>
+                <p>
+                    Memoria RAM 16gb 3200mhz RGB XPG Spectix DDR4
+                </p>
+                <p>
+                    <del class="precio-anterior">$899.99</del>
+                </p>
+                <span class="precio">Precio: $699.99</span><br>
+                
+                <a href="#" class="agregar-btn" onclick="mostrarContador()" >Agregar al carrito</a>
+                <a href="compra.html" class="comprar-btn">Comprar ahora</a> <br><br>
+                <div id="contadorCompras" class="oculto"></div>
+                <div class="oculto"></div>
+            </div>
+        </div>
+        <div id="caracteristicas">
+            <ul><h3><strong> Especificaciones </strong></h3>
+                <li>Memoria : <strong>16 gb</strong></li>
+                <li>Frecuencia : <strong>3200mhz</strong></li>
+                <li>Tipo: <strong> SSD </strong></li>
+            </ul>
+        </div>
+        <div id="datos">
+            <ul><h3><strong>  </strong></h3>
+            </ul>
+        </div>
+    </div>        
+</div>
+
+<div class="container">
+    <div class="fotos"><a href="grafi.html"><img src="../img/grafi.png" alt="" width="100%"></a><p><strong>$15,999.99</strong></p>Tarjeta Grafica RTX 3060 </div>
+    <div class="fotos"><a href="grafi1.html"><img src="../img/grafi1.png" alt="" width="100%"></a><strong>$6,999.99</strong><p>Tarjeta Grafica RX 6500X</p></div>
+    <div class="fotos"><a href="ryzen1.html"><img src="../img/ryzen.png" alt="" width="100%"></a><strong>$7,999.99</strong><p>Ryzen 7 5700 8 Nucleos</p></div>
+    <div class="fotos"><a href="intel1.html"><img src="../img/intel1.png" alt="" width="100%"></a><strong>$6,999.99</strong><p>Intel Core i9 12600k 12 Nucleos</p></div>
+</div>
+<div class="container">
+    <div class="fotos"><a href="ssd1.html"><img src="../img/ssd1.png" alt="" width="100%"></a><strong>$449.99</strong><p>SSD 120 gb Adata</p></div>
+    <div class="fotos"><a href="ssd2.html"><img src="../img/ssd2.png" alt="" width="100%"></a><strong>$699.99</strong><p>SSD 512 gb Firecuda</p></div>
+    <div class="fotos"><a href="ram2.html"><img src="../img/ram2.png" alt="" width="100%"></a><strong>$699.99</strong><p>Memoria RAM 8gb 3200mhz</p></div>
+    <div class="fotos"><a href="catalogo.html"><img src="../img/mas.png" alt="" width="100%"></a><strong>Ver m&aacute;s Productos</strong></div>
+</div>
+
+<button id="arriba" onclick="scrollToTop()"><strong>Volver a arriba</strong></button>
+
+<footer>
+    <div class="contacto">
+        <h2>Contactanos</h2>
+        <div id="primer">
+        <p>Estamos aquí para ayudarte. ¡Contáctanos! 
+            conoce los <br><a href="">terminos</a> y <a href="">condiciones</a>
+        </p></div>
+        <div id="segundo">
+            <p>Email: <br>al223516@alumnos.uacj.mx</p></div> 
+            <div id="tercer">
+            <p>Teléfono: <br>+656 364 7354</p></div>
+            <div id="cuarto"> <a href="https://www.facebook.com/profile.php?id=100016574229982"><img src="img/facebook.png" ></a> <a href="https://www.instagram.com/pcgamer_mag/?hl=es"><img src="img/instagram.png" ></a> <a href="https://x.com/pcgamer?s=20"><img src="img/x.png" ></a><a href="https://www.youtube.com/channel/UCjtNk62vDMV4nS-XMP2-VbA"><img src="img/youtube.png"></a></div>
+    </div>
+</footer>
+    <script src="../js/pc1.js"></script>
+    
+</body>
+</html>

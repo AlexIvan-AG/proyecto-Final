@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto en Venta</title>
+    <link rel="stylesheet" href="../css/pc.css">
+</head>
+<body>
+    <header>
+        <a href="catalogo.html">Descubre las orfetas que tenemos para ti -></a>
+    </header>
+    <nav class="menu">        
+        <a id="logotipo" href="../index.html"><img src="../img/logo.jpg" width="100px" height="100px" alt=""></a>
+        <a href="perifericos.html" id="perifericos">Memorias</a>
+        <a href="componentes.html">Componentes</a>
+        <a href="laptops.html">Laptos</a>
+    </nav>
+
+    <div class="container">
+        <div class="producto-info">
+            <div class="image-container">
+                <img src="../img/pc4.png" width="300px" alt="Producto en Venta" class="product-image" id="productImage">
+                <div class="overlay" id="overlay">
+                    <img src="img/pc4.png" alt="Producto en Venta" class="enlarged-image" id="enlargedImage">
+                    <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                </div>
+            </div>
+            <div class="detalles">
+                <h1>PC gamer RTX 3070, 512 GB de almacenamiento SSD + 2TB HDD</h1>
+                <p>
+                    PC gamer con tarjeta grafica RTX 3070, 512 GB de almacenamiento SSD adicional 2TB HDD procesador intel, 16gb RAM. 
+                </p>
+                <p>
+                    <del class="precio-anterior">$19,999.99</del>
+                </p>
+                <span class="precio">Precio: $16,999.99</span><br>
+                <a href="#" class="agregar-btn" onclick="mostrarContador()" >Agregar al carrito</a>
+                <a href="compra.html" class="comprar-btn">Comprar ahora</a> <br><br>
+                <div id="contadorCompras" class="oculto"><a href="#" class="comprar-btn"></a> <br><br>
+                </div>
+        </div>
+        <div id="caracteristicas">
+            <ul>
+                <li>Procesador : <strong>Intel Core i9-10600</strong></li>
+                <li>Memoria RAM : <strong>16gb 3600Mhz</strong></li>
+                <li>Almacenamiento :<strong> 512gb SSD + 2tb HDD </strong></li>
+                <li>Graficos : <strong>RTX 3070</strong></li>
+                <li>Fuente de poder : <strong> 750wt 80 plus bronze</strong></li>
+                <li>Motherboard : <strong> Z790 HERO S-1700</strong></li>
+            </ul>
+        </div>
+        <div id="datos">
+            <ul><h3><strong>  </strong></h3>
+                <img src="../img/intel.png" width="20% alt=">
+                <img src="../img/nvidia.png" width="15% alt=">
+            </ul>
+        </div>
+    </div>        
+</div>
+
+<div class="container">
+    <div class="fotos"><a href="pc1.html"><img src="../img/pc1.png" alt="" width="100%"></a><p><strong> $16,999.99</strong></p>Computadora gamer con procesador Intel Core i9-10900 2.80Ghz</div>
+    <div class="fotos"><a href="pc2.html"><img src="../img/pc2.png" alt="" width="100%"></a><p><strong>$22,999.99</strong></p>Computadora Gamer PC gaming W10 - monitor + mouse</div>
+    <div class="fotos"><a href="pc3.html"><img src="../img/pc3.png" alt="" width="100%"></a><p><strong>$19,499.99</strong></p>Computadora Gamer PC gaming W11 - monitor + audifonos + mouse WHITE</div>
+    <div class="fotos"><a href="pc5.html"><img src="../img/pc5.png" alt="" width="100%"></a><p><strong>$18,999.99</strong></p>PC Windows 11, 512 GB de almacenamiento SSD 512GB Ryzen 5 5700x AMD Radeon RX 6600x</div>
+</div>
+<div class="container">
+    <div class="fotos"><a href="pc6.html"><img src="../img/pc6.png" alt="" width="100%"></a><p><strong>$16,999.99</strong></p>PC Windows 11, 240 GB de almacenamiento SSD Ryzen 5 5700g</div>
+    <div class="fotos"><a href="pc7.html"><img src="../img/pc7.png" alt="" width="100%"></a><p><strong>$22,999.99</strong></p>Computadora gamer Windows 11</div>
+    <div class="fotos"><a href="pc8.html"><img src="../img/pc8.png" alt="" width="100%"></a><p><strong>$19,499.99</strong></p>Computadora Gamer PC gaming W10 - monitor + mouse</div>
+    <div class="fotos"><a href="catalogo.html"><img src="../img/mas.png" alt="" width="100%"></a><strong>Ver m&aacute;s Productos</strong></div>
+</div>
+
+<button id="arriba" onclick="scrollToTop()"><strong>Volver a arriba</strong></button>
+
+<footer>
+    <div class="contacto">
+        <h2>Contactanos</h2>
+        <div id="primer">
+        <p>Estamos aquí para ayudarte. ¡Contáctanos! 
+            conoce los <br><a href="">terminos</a> y <a href="">condiciones</a>
+        </p></div>
+        <div id="segundo">
+            <p>Email: <br>al223516@alumnos.uacj.mx</p></div> 
+            <div id="tercer">
+            <p>Teléfono: <br>+656 364 7354</p></div>
+            <div id="cuarto"> <a href="https://www.facebook.com/profile.php?id=100016574229982"><img src="../img/facebook.png" ></a> <a href="https://www.instagram.com/pcgamer_mag/?hl=es"><img src="../img/instagram.png" ></a> <a href="https://x.com/pcgamer?s=20"><img src="../img/x.png" ></a><a href="https://www.youtube.com/channel/UCjtNk62vDMV4nS-XMP2-VbA"><img src="../img/youtube.png"></a></div>
+    </div>
+</footer>
+    <script src="../js/pc1.js"></script>
+</body>
+</html>

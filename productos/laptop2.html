@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto en Venta</title>
+    <link rel="stylesheet" href="../css/pc.css">
+</head>
+<body>
+    <header>
+        <a href="catalogo.html">Descubre las orfetas que tenemos para ti -></a>
+    </header>
+    <nav class="menu">        
+        <a id="logotipo" href="../index.html"><img src="../img/logo.jpg" width="100px" height="100px" alt=""></a>
+        <a href="perifericos.html" id="perifericos">Memorias</a>
+        <a href="componentes.html">Componentes</a>
+        <a href="laptops.html">Laptos</a>
+    </nav>
+
+    <div class="container">
+        <div class="producto-info">
+            <div class="image-container">
+                <img src="../img/laptop2.png" width="300px" alt="Producto en Venta" class="product-image" id="productImage">
+                <div class="overlay" id="overlay">
+                    <img src="img/laptop2.png" alt="Producto en Venta" class="enlarged-image" id="enlargedImage">
+                    <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                </div>
+            </div>
+            <div class="detalles">
+                <h1>Laptop Windows 11, 240 GB de almacenamiento SSD Ryzen 5 5700g </h1>
+                <p>
+                    Laptop gamer windows 11, 240 GB de almacenamiento SSD ryzen 5 5700g 16gb RAM. 
+                </p>
+                <p>
+                    <del class="precio-anterior">$17,999.99</del>
+                </p>
+                <span class="precio">Precio: $15,999.99</span><br>
+                <a href="#" class="agregar-btn" onclick="mostrarContador()" >Agregar al carrito</a>
+                <a href="compra.html" class="comprar-btn">Comprar ahora</a> <br><br>
+                <div id="contadorCompras" class="oculto"><a href="#" class="comprar-btn"></a> <br><br>
+                </div>
+        </div>
+        <div id="caracteristicas">
+            <ul>
+                <li>Procesador : <strong>Ryzen 7 5700G</strong></li>
+                <li>Memoria RAM : <strong>16gb 3200Mhz</strong></li>
+                <li>Almacenamiento :<strong> 240gb SSD 8TB HDD</strong></li>
+                <li>Graficos : <strong> Radeon Grafics</strong></li>
+                <li>Fuente de poder : <strong> 650wt 80 plus bronze</strong></li>
+                <li>Pantalla : <strong>1920p x 1080p 144hz </strong></li>
+                <li>Teclado : <strong>Interfaz Esp RGB</strong></li>
+
+            </ul>
+        </div>
+        <div id="datos">
+            <ul><h3><strong>  </strong></h3>
+                <img src="../img/ryzen.png" width="25% alt=">
+                <img src="../img/AMD.png" width="20% alt=">
+            </ul>
+        </div>
+    </div>        
+</div>
+
+<div class="container">
+    <div class="fotos"><a href="laptop1.html"><img src="../img/laptop1.jpg" alt="" width="100%"></a><p><strong> $16,999.99</strong></p>Laptop gamer con procesador Intel Core i9-10900 de 2.80 GHz</div>
+    <div class="fotos"><a href="laptop3.html"><img src="../img/laptop3.png" alt="" width="100%"></a><p><strong>$22,999.99</strong></p>Laptop  1 TB de almacenamiento SSD Ryzen </div>
+    <div class="fotos"><a href="laptop4.html"><img src="../img/laptop4.png" alt="" width="100%"></a><p><strong>$18,999.99</strong></p>Laptop Gamer intel 24gb RAM</div>
+    <div class="fotos"><a href="catalogo.html"><img src="../img/mas.png" alt="" width="100%"></a><strong>Ver m&aacute;s Productos</strong></div>
+</div>
+
+
+<button id="arriba" onclick="scrollToTop()"><strong>Volver a arriba</strong></button>
+
+<footer>
+    <div class="contacto">
+        <h2>Contactanos</h2>
+        <div id="primer">
+        <p>Estamos aquí para ayudarte. ¡Contáctanos! 
+            conoce los <br><a href="">terminos</a> y <a href="">condiciones</a>
+        </p></div>
+        <div id="segundo">
+            <p>Email: <br>al223516@alumnos.uacj.mx</p></div> 
+            <div id="tercer">
+            <p>Teléfono: <br>+656 364 7354</p></div>
+            <div id="cuarto"> <a href="https://www.facebook.com/profile.php?id=100016574229982"><img src="../img/facebook.png" ></a> <a href="https://www.instagram.com/pcgamer_mag/?hl=es"><img src="../img/instagram.png" ></a> <a href="https://x.com/pcgamer?s=20"><img src="../img/x.png" ></a><a href="https://www.youtube.com/channel/UCjtNk62vDMV4nS-XMP2-VbA"><img src="../img/youtube.png"></a></div>
+    </div>
+</footer>
+    <script src="../js/pc1.js"></script>
+</body>
+</html>
